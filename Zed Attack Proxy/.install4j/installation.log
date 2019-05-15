@@ -1,0 +1,507 @@
+[INFO] logger started at Tue May 14 12:08:22 SAST 2019
+[INFO] executable name: C:\Users\Fashanu.moyo\Downloads\ZAP_2_7_0_windows.exe
+[INFO] install4j version: 6.1.6 (build 6459)
+[INFO] Properties: 
+-- listing properties --
+sun.desktop=windows
+awt.toolkit=sun.awt.windows.WToolkit
+java.specification.version=12
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\FASHAN~1.MOY\AppData\Local\T...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+install4j.exeDir=C:\Users\Fashanu.moyo\Downloads\
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=Africa/Johannesburg
+java.vm.specification.version=12
+os.name=Windows 10
+user.country=ZA
+sun.boot.library.path=c:\program files\java\jdk-12.0.1\bin
+sun.java.command=C:\Users\Fashanu.moyo\Downloads\ZAP_2...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=3626530
+user.home=C:\Users\Fashanu.moyo
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2019-04-16
+java.home=c:\program files\java\jdk-12.0.1
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+exe4j.moduleName=C:\Users\Fashanu.moyo\Downloads\ZAP_2...
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+exe4j.tempDir=C:\Users\FASHAN~1.MOY\AppData\Local\T...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=12.0.1+12
+user.name=fashanu.moyo
+path.separator=;
+os.version=10.0
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.java2d.noddraw=true
+file.encoding=Cp1252
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+exe4j.semaphoreName=Local\c:_users_fashanu.moyo_downloads...
+install4j.appDir=C:\Users\Fashanu.moyo\AppData\Local\T...
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\FASHAN~1.MOY\AppData\Local\T...
+java.version=12.0.1
+user.dir=C:\Users\FASHAN~1.MOY\AppData\Local\T...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+java.library.path=C:\Users\FASHAN~1.MOY\AppData\Local\T...
+java.vm.info=mixed mode, sharing
+java.vendor=Oracle Corporation
+java.vm.version=12.0.1+12
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=56.0
+exe4j.launchName=C:\Users\Fashanu.moyo\Downloads\ZAP_2...
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property obtainIfNormalMac: true
+       Property failIfNotRootUnix: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotObtainedMac: true
+       Property obtainIfNormalWin: true
+       Property obtainIfAdminMac: true
+       Property allRequested: true
+       Property obtainIfAdminWin: true
+       Property rollbackSupported: false
+       Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 5447 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 248]: Execute action
+       Property rollbackSupported: false
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_76
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: sys.installationDir=C:\Program Files\OWASP\Zed Attack Proxy[class java.lang.String]
+       Variable changed: sys.programGroupName=OWASP\Zed Attack Proxy[class java.lang.String]
+       Execute action successful after 37 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 52]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 52]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 98]: Show screen
+       Variable changed: installationType=1[class java.lang.Integer]
+       Variable changed: customInstall=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 98]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property registerForResponseFile: true
+       Property overwriteStrategy: Do not overwrite command line
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property rollbackSupported: true
+       Response file C:\Program Files\OWASP\Zed Attack Proxy\.install4j\response.varfile does not exist
+       Execute action successful after 9 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=OWASP\Zed Attack Proxy[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 236]: Show screen
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: createQuicklaunchIconAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 236]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 59]: Show screen
+       Variable changed: cfu.checkForUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.downloadNewRelease=true[class java.lang.Boolean]
+       Variable changed: cfu.checkAddOnUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installAddonUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installScannerRules=true[class java.lang.Boolean]
+       Variable changed: cfu.reportReleaseAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.reportBetaAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.reportAlphaAddons=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 59]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 242]: Show screen
+       Variable changed: installationSummary=Destination location:
+    ${installer:sys.contentDir}
+
+Start Menu folder:
+    ${installer:sys.programGroupName}
+
+Additional tasks:
+    Additional icons:
+        Create a desktop icon
+
+Check for Updates:
+  Check for Updates on startup: Yes
+  Automatically download new ZAP releases: Yes
+  Check for updates to the add-ons you have installed: Yes
+  Automatically install updates to the add-ons you have installed: Yes
+  Automatically install updates to the scanner rules you have installed: Yes
+  Report new release quality add-ons: Yes
+  Report new beta quality add-ons: Yes
+  Report new alpha quality add-ons: Yes
+[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 242]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 169]: Execute action
+       Property installationDirectory: null
+       Property onlyIfSameApplicationId: true
+       Property uninstallServices: true
+       Property installerVariables: {}
+       Property logFiles: []
+       Property rollbackSupported: true
+       checking running processes
+       checking running processes ok
+       getting previous installation id
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 190 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property validateApplicationId: false
+       Property checkFreeSpace: true
+       Property updateBundledJre: true
+       Property installRuntime: true
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property delay: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property fileFilterScript: null
+       Property directoryResolverScript: null
+       Property rollbackSupported: true
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4jdel.exe; size: 80368 bytes; exists: false
+       File options set to: [fileTime: Tue Nov 28 13:56:42 SAST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4jinst.dll; size: 156672 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\README; size: 2483 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe; size: 152576 bytes; exists: false
+       File options set to: [fileTime: Tue Nov 28 13:56:42 SAST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\db\db.properties; size: 739 bytes; exists: false
+       File options set to: [fileTime: Tue Nov 28 13:56:42 SAST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\db\hsqldb.properties; size: 10060 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\db\mysql.properties; size: 10279 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\db\mysql.schema; size: 9376 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\db\zapdb.properties; size: 88 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\db\zapdb.script; size: 5027 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages.properties; size: 163392 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ar_SA.properties; size: 171139 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_az_AZ.properties; size: 160863 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_bn_BD.properties; size: 151218 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_bs_BA.properties; size: 156546 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_da_DK.properties; size: 153324 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_de_DE.properties; size: 155542 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_el_GR.properties; size: 217205 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_es_ES.properties; size: 155943 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_fa_IR.properties; size: 221475 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_fil_PH.properties; size: 151344 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_fr_FR.properties; size: 177029 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_he_IL.properties; size: 151273 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_hi_IN.properties; size: 151755 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_hr_HR.properties; size: 151540 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_hu_HU.properties; size: 159184 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_id_ID.properties; size: 152493 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_it_IT.properties; size: 164458 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ja_JP.properties; size: 185798 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ko_KR.properties; size: 152499 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_mk_MK.properties; size: 151218 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ms_MY.properties; size: 152121 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_nb_NO.properties; size: 151218 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_nl_NL.properties; size: 157925 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_pl_PL.properties; size: 159148 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_pt_BR.properties; size: 154697 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ro_RO.properties; size: 152621 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ru_RU.properties; size: 299090 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_si_LK.properties; size: 151991 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_sk_SK.properties; size: 151218 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_sl_SI.properties; size: 152538 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_sq_AL.properties; size: 151720 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_sr_CS.properties; size: 151608 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_sr_SP.properties; size: 151401 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_tr_TR.properties; size: 152191 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_uk_UA.properties; size: 151243 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_ur_PK.properties; size: 154884 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_vi_VN.properties; size: 151261 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\Messages_zh_CN.properties; size: 154835 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ar_SA.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_az_AZ.xml; size: 136490 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_bn_BD.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_bs_BA.xml; size: 136622 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_da_DK.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_de_DE.xml; size: 136486 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_el_GR.xml; size: 139050 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_es_ES.xml; size: 136623 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_fa_IR.xml; size: 136643 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_fil_PH.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_fr_FR.xml; size: 168012 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_he_IL.xml; size: 136481 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_hi_IN.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_hr_HR.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_hu_HU.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_id_ID.xml; size: 136479 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_it_IT.xml; size: 136591 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ja_JP.xml; size: 140210 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ko_KR.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_mk_MK.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ms_MY.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_nb_NO.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_nl_NL.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_pl_PL.xml; size: 136541 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_pt_BR.xml; size: 136571 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ro_RO.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ru_RU.xml; size: 136489 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_si_LK.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_sk_SK.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_sl_SI.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_sq_AL.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_sr_CS.xml; size: 136430 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_sr_SP.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_tr_TR.xml; size: 137392 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_uk_UA.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_ur_PK.xml; size: 136482 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_vi_VN.xml; size: 136566 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lang\vulnerabilities_zh_CN.xml; size: 136405 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\BrowserLauncher2-1_3.jar; size: 109317 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\bcmail-jdk15on-152.jar; size: 98208 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\bcpkix-jdk15on-152.jar; size: 622849 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\bcprov-jdk15on-152.jar; size: 2902942 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-beanutils-1.8.3.jar; size: 232019 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-codec-1.9.jar; size: 263965 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-collections-3.2.2.jar; size: 588337 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-configuration-1.9.jar; size: 358048 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-csv-1.1.jar; size: 36888 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-httpclient-3.1.jar; size: 305001 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-io-2.4.jar; size: 185140 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-jxpath-1.3.jar; size: 299994 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-lang-2.6.jar; size: 284220 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-logging-1.2.jar; size: 61829 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\commons-logging-api-1.1.1.jar; size: 52313 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\diffutils-1.2.1.jar; size: 30360 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\ezmorph-1.0.6.jar; size: 86487 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\harlib-jackson-1.1.2.jar; size: 611567 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\hsqldb.jar; size: 1515894 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\httpclient-4.5.jar; size: 727567 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\httpcore-4.4.1.jar; size: 322234 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\ice4j-1.0.jar; size: 471913 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\java-semver-0.8.0.jar; size: 44405 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jcommon-1.0.23.jar; size: 330246 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jdom.jar; size: 152797 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jericho-html-3.1.jar; size: 180205 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jfreechart-1.0.13.jar; size: 1425744 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jfxrt.jar; size: 15144324 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jgrapht-core-0.9.0.jar; size: 333259 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\jh.jar; size: 439632 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\json-lib-2.4-jdk15.jar; size: 159123 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\log4j-1.2.17.jar; size: 489883 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\rsyntaxtextarea-2.5.8.jar; size: 1056316 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\sqlite-jdbc-3.8.11.1.jar; size: 5191028 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\swingx-all-1.6.4.jar; size: 1487304 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\lib\xom-1.2.10.jar; size: 313253 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\ApacheLicense-2.0.txt; size: 11560 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\COPYING; size: 27503 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\OFL.txt; size: 4696 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\RSyntaxTextArea.License.txt; size: 1515 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\TheClarifiedArtisticLicense.htm; size: 7510 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\TheClarifiedArtisticLicense.rtf; size: 7228 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\gpl-2.0.txt; size: 18092 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\hsqldb_lic.txt; size: 1633 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\hypersonic_lic.txt; size: 3434 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\license\lgpl-3.0.txt; size: 7651 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\Readme.txt; size: 223 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\alertFilters-beta-6.zap; size: 285925 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\ascanrules-release-28.zap; size: 594762 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\bruteforce-beta-7.zap; size: 1011548 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\coreLang-release-12.zap; size: 3131785 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\diff-beta-8.zap; size: 241225 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\directorylistv1-release-3.zap; size: 847619 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\fuzz-beta-10.zap; size: 2418608 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\gettingStarted-release-8.zap; size: 495563 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\help-release-8.zap; size: 725234 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\importurls-beta-5.zap; size: 225043 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\invoke-beta-8.zap; size: 299523 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\jxbrowser-alpha-7.zap; size: 1419665 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\jxbrowserwindows-alpha-5.zap; size: 36680508 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\onlineMenu-release-6.zap; size: 206306 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\pscanrules-release-21.zap; size: 519186 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\quickstart-release-22.zap; size: 429152 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\replacer-beta-4.zap; size: 311807 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\reveal-release-2.zap; size: 230262 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\saverawmessage-release-4.zap; size: 27756 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\scripts-beta-22.zap; size: 615637 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\selenium-release-13.zap; size: 22796677 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\spiderAjax-release-20.zap; size: 2594648 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\tips-beta-6.zap; size: 517219 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\webdriverwindows-beta-4.zap; size: 10340640 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\websocket-release-14.zap; size: 868755 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\plugin\zest-beta-26.zap; size: 2102156 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\active\Active default template.js; size: 3246 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\authentication\Authentication default template.js; size: 3874 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\authentication\BodgeIt Store Authentication.js; size: 3350 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\authentication\Simple Form-Based Authentication.js; size: 4064 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\authentication\Wordpress Authentication.js; size: 5376 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\httpsender\HttpSender default template.js; size: 1612 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\passive\Passive default template.js; size: 2351 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\proxy\Proxy default template.js; size: 1216 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\standalone\Loop through history table.js; size: 825 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\standalone\Standalone default template.js; size: 88 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\standalone\Traverse sites tree.js; size: 534 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\targeted\Find HTML comments.js; size: 1185 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\targeted\Targeted default template.js; size: 447 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\scripts\templates\variant\Input Vector default template.js; size: 2602 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\uninstall.exe; size: 378368 bytes; exists: false
+       File options set to: [fileTime: Tue Nov 28 13:56:42 SAST 2017, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\alert.dtd; size: 249 bytes; exists: false
+       File options set to: [fileTime: Tue Nov 28 13:56:42 SAST 2017, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\alert.xml; size: 387 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\alertDef.dtd; size: 368 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\alertDef.xml; size: 259 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\chrome-user-agents.txt; size: 28240 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\common-user-agents.txt; size: 13438 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\config.dtd; size: 868 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\config.xml; size: 5779 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\drivers.dtd; size: 170 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\drivers.xml; size: 3337 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\firefox-user-agents.txt; size: 78838 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\internet-explorer-user-agents.txt; size: 552846 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\log4j.properties; size: 1150 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\report.html.xsl; size: 16235 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\report.md.xsl; size: 5216 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\report.xml.xsl; size: 1054 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\reportCompare.xsl; size: 3150 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\safari-user-agents.txt; size: 62527 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\scanPolicy.xml; size: 111 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\session.dtd; size: 295 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\session.xml; size: 233 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\test.xml; size: 195 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\xml\untitledsession.xml; size: 129 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\zap-2.7.0.jar; size: 9518830 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\zap.bat; size: 192 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\zap.ico; size: 123778 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\zap.sh; size: 3834 bytes; exists: false
+       File options set to: [fileTime: Tue Nov 28 13:56:42 SAST 2017, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\inst_jre.cfg; size: 34 bytes; exists: false
+       File options set to: [fileTime: Tue May 14 12:09:39 SAST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4jruntime.jar; size: 1948051 bytes; exists: false
+       File options set to: [fileTime: Tue May 14 12:09:39 SAST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\MessagesDefault; size: 33534 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4jparams.conf; size: 88234 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\stats.properties; size: 1555 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\user.jar; size: 24451 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_0_1bmhzww.utf8; size: 33534 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_10_1bmhzww.utf8; size: 37640 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_11_1bmhzww.utf8; size: 35441 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_12_1bmhzww.utf8; size: 36290 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_13_1bmhzww.utf8; size: 37535 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_14_1bmhzww_dcvdhj.png; size: 816 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_15_1bmhzww_1pa6cgr.png; size: 1933 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_16_1bmhzww_16vgtkw.png; size: 3600 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_17_1bmhzww_6twyc5.png; size: 10790 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_18_1bmhzww.txt; size: 11560 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_19_1bmhzww_18mu4rr.ico; size: 123778 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_1_1bmhzww.properties; size: 3192 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_20_1bmhzww_1gk1b9c.png; size: 63628 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_21_1bmhzww_18mu4rr.ico; size: 123778 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_2_1bmhzww.utf8; size: 33852 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_3_1bmhzww.utf8; size: 38916 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_4_1bmhzww.utf8; size: 36087 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_5_1bmhzww.utf8; size: 48901 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_6_1bmhzww.utf8; size: 36810 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_7_1bmhzww.utf8; size: 34848 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_8_1bmhzww.utf8; size: 44250 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\i4j_extf_9_1bmhzww.utf8; size: 34747 bytes; exists: false
+       Install file: C:\Program Files\OWASP\Zed Attack Proxy\.install4j\installer.ico; size: 123778 bytes; exists: false
+       Execute action successful after 6133 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property programGroupName: OWASP\Zed Attack Proxy
+       Property categories: Application
+       Property addUninstaller: true
+       Property unixMenuEntries: true
+       Property linkDirectory: 
+       Property unixSymlinks: true
+       Property allUsers: true
+       Property uninstallerMenuName: OWASP Zed Attack Proxy Uninstaller
+       Property programGroupEntryConfigs: [com.install4j.runtime.beans.screens.components.ProgramGroupUrlConfig@be64738]
+       Property failForSymlinksNotCreated: false
+       Property addDefaultLauncherLinks: true
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OWASP\Zed Attack Proxy\OWASP Zed Attack Proxy Uninstaller.lnk; size: 2117 bytes; exists: false
+       File options set to: [fileTime: Tue May 14 12:09:40 SAST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OWASP\Zed Attack Proxy\ZAP 2.7.0.lnk; size: 2069 bytes; exists: false
+       File options set to: [fileTime: Tue May 14 12:09:40 SAST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OWASP\Zed Attack Proxy\ZAP homepage.url; size: 177 bytes; exists: false
+       File options set to: [fileTime: Tue May 14 12:09:40 SAST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 611 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 235]: Execute action
+       Property description: 
+       Property arguments: 
+       Property allUsers: true
+       Property winIconFile: i4j_extf_21_1bmhzww_18mu4rr.ico
+       Property unixIconFile: i4j_extf_20_1bmhzww_1gk1b9c.png
+       Property startIn: null
+       Property macSingleBundleTarget: false
+       Property runAsAdministrator: false
+       Property name: OWASP ZAP 2.7.0
+       Property file: ZAP.exe
+       Property rollbackSupported: true
+       Install file: C:\Users\Public\Desktop\OWASP ZAP 2.7.0.lnk; size: 2139 bytes; exists: false
+       File options set to: [fileTime: Tue May 14 12:09:41 SAST 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 184 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property itemName: OWASP Zed Attack Proxy 2.7.0
+       Property iconSource: Installer icon
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 234 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 57]: Execute action
+       Property logText: false
+       Property append: false
+       Property encoding: 
+       Property escaped: false
+       Property text: [logging of replacement text is disabled]
+       Property file: AcceptedLicense
+       Property rollbackSupported: true
+       Execute action successful after 63 ms
+[INFO] com.install4j.runtime.beans.actions.xml.InsertXmlFragmentAction [ID 570]: Execute action
+       Property fragmentSource: Direct entry
+       Property xpathExpression: /config/start
+       Property fragmentFile: null
+       Property fragmentText: <start>
+	<checkForUpdates>true</checkForUpdates>
+	<downloadNewRelease>true</downloadNewRelease>
+	<checkAddonUpdates>true</checkAddonUpdates>
+	<installAddonUpdates>true</installAddonUpdates>
+	<installScannerRules>true</installScannerRules>
+	<reportReleaseAddons>true</reportReleaseAddons>
+	<reportBetaAddons>true</reportBetaAddons>
+	<reportAlphaAddons>true</reportAlphaAddons>
+</start>
+       Property fragmentInsertMode: Replace
+       Property files: [xml\config.xml]
+       Property validating: false
+       Property downloadExternalEntities: false
+       Property rollbackSupported: true
+       Backing up C:\Program Files\OWASP\Zed Attack Proxy\xml\config.xml
+       Execute action successful after 424 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 635]: Execute action
+       Property logText: false
+       Property append: true
+       Property encoding: 
+       Property escaped: false
+       Property text: [logging of replacement text is disabled]
+       Property file: OWASP ZAP.desktop
+       Property rollbackSupported: true
+       Execute action successful after 50 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished
