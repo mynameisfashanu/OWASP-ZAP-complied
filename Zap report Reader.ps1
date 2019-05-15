@@ -14,8 +14,7 @@ try {
     }
     
     Write-Output "Reading OWASP ZAP report"
-    [xml]$XmlDocument = Get-Content 'C:\Program Files\OWASP\Zed Attack Proxy\zap-report.xml'
-    #[xml]$XmlDocument = Get-Content $report
+    [xml]$XmlDocument = Get-Content $report
     
     $AlertCount = $XmlDocument.OWASPZAPReport.site.alerts.alertitem | Measure-Object
     Write-Output "Found $($AlertCount.Count) alerts in ZAP report"
